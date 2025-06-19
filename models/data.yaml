@@ -1,0 +1,6 @@
+path: ../
+train: ../images/train
+val: ../images/val
+
+nc: 4
+names: ['dark_broken', 'dark_entire', 'red_broken', 'red_entire']
