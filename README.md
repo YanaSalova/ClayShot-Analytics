@@ -10,7 +10,7 @@ https://drive.google.com/drive/folders/1TLnLkVY5UoUYNrMTDBKzWPqtNjq34f0-?usp=sha
 Выполнила покадровое разбиение. Данные я сама размечала с помощью `Label Studio` по 4-ем классам: `red_entire`, `red_broken`, `dark_entire`, `dark_broken`.
 В итоговый датасет для обучения вошли ~500 изображений, и разбиты для обучения и теста на 80 и 20 процентов выборки соответственно. 
 ### 2. Обучение модели
-Для обучения, а точнее, для дообучения была выбрана модель Yolo11 с исходными весами доступными [по ссылке](https://docs.ultralytics.com/models/yolo11/#key-features).
+Для обучения, а точнее, для дообучения была выбрана модель YoloV8 с исходными весами доступными [по ссылке](https://docs.ultralytics.com/models/yolo11/#key-features).
 Обучение проводилось в 250 эпох, итоговые веса и метрики доступны в репозитории. 
 
 ![](models/train/results.png)
